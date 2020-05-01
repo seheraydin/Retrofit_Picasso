@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#675656"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+//17: json dan çekilen verileri gösterelim
+    <TextView
+        android:id="@+id/idAlbumId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/idTitle"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/idUrl"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    //Not: imageView var internetten resim çekeceğiz
+    //o yüzden picasso kütüphanesini projemize dahil etmemiz gerekiyor
+    <ImageView
+        android:id="@+id/idImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+</LinearLayout>
